@@ -1,0 +1,137 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1712319638348' stop='1712319717187'>
+    <name>User Tests</name>
+    <title>User Tests</title>
+    <test-cases>
+        <test-case start='1712319638348' status='failed' stop='1712319652339'>
+            <name>Başarısız Kullanıcı Girişi Kontrolü</name>
+            <title>Başarısız Kullanıcı Girişi Kontrolü</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `[class='error']`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `[class='error']`, but never found it.
+                    at mainPage.errorMessageControl (webpack:///./cypress/e2e/pages/mainPage.js:9:34)
+                    at Context.eval (webpack:///./cypress/e2e/tests/user-tests.cy.js:30:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1712319652373' status='passed' stop='1712319658610'>
+            <name>Başarılı Kullanıcı Girişi Kontrolü</name>
+            <title>Başarılı Kullanıcı Girişi Kontrolü</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1712319658627' status='failed' stop='1712319671841'>
+            <name>Username Alanı Maksimum Karakter Kontrolü</name>
+            <title>Username Alanı Maksimum Karakter Kontrolü</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `[class='error']`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `[class='error']`, but never found it.
+                    at mainPage.errorMessageControl (webpack:///./cypress/e2e/pages/mainPage.js:9:34)
+                    at Context.eval (webpack:///./cypress/e2e/tests/user-tests.cy.js:58:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1712319671857' status='failed' stop='1712319684893'>
+            <name>Password Alanı Maksimum Karakter Kontrolü</name>
+            <title>Password Alanı Maksimum Karakter Kontrolü</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `[class='error']`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `[class='error']`, but never found it.
+                    at mainPage.errorMessageControl (webpack:///./cypress/e2e/pages/mainPage.js:9:34)
+                    at Context.eval (webpack:///./cypress/e2e/tests/user-tests.cy.js:72:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1712319684918' status='failed' stop='1712319691382'>
+            <name>Username Alanı Minimum Karakter Kontrolü</name>
+            <title>Username Alanı Minimum Karakter Kontrolü</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `[class='error']`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `[class='error']`, but never found it.
+                    at mainPage.errorMessageControl (webpack:///./cypress/e2e/pages/mainPage.js:9:34)
+                    at Context.eval (webpack:///./cypress/e2e/tests/user-tests.cy.js:86:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1712319691397' status='failed' stop='1712319698015'>
+            <name>Password Alanı Minimum Karakter Kontrolü</name>
+            <title>Password Alanı Minimum Karakter Kontrolü</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `[class='error']`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `[class='error']`, but never found it.
+                    at mainPage.errorMessageControl (webpack:///./cypress/e2e/pages/mainPage.js:9:34)
+                    at Context.eval (webpack:///./cypress/e2e/tests/user-tests.cy.js:100:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1712319698039' status='passed' stop='1712319700030'>
+            <name>Password ve Username Alanları Zorunluluk Kontrolü</name>
+            <title>Password ve Username Alanları Zorunluluk Kontrolü</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1712319700039' status='passed' stop='1712319702112'>
+            <name>Password Alanları Zorunluluk Kontrolü</name>
+            <title>Password Alanları Zorunluluk Kontrolü</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1712319702125' status='passed' stop='1712319703656'>
+            <name>Username Alanları Zorunluluk Kontrolü</name>
+            <title>Username Alanları Zorunluluk Kontrolü</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1712319703664' status='failed' stop='1712319710453'>
+            <name>Başarısız Kullanıcı Girişi Kontrolü Username</name>
+            <title>Başarısız Kullanıcı Girişi Kontrolü Username</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `[class='error']`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `[class='error']`, but never found it.
+                    at mainPage.errorMessageControl (webpack:///./cypress/e2e/pages/mainPage.js:9:34)
+                    at Context.eval (webpack:///./cypress/e2e/tests/user-tests.cy.js:154:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1712319710470' status='failed' stop='1712319717181'>
+            <name>Başarısız Kullanıcı Girişi Kontrolü Password</name>
+            <title>Başarısız Kullanıcı Girişi Kontrolü Password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `[class='error']`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `[class='error']`, but never found it.
+                    at mainPage.errorMessageControl (webpack:///./cypress/e2e/pages/mainPage.js:9:34)
+                    at Context.eval (webpack:///./cypress/e2e/tests/user-tests.cy.js:168:10)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

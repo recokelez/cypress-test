@@ -1,5 +1,5 @@
 class loginPage{
-
+    
     fillUserName(text){
         cy.get("[name='username']").type(text);
         return this;
